@@ -20,6 +20,7 @@ import theme from './src/styles/theme';
 import { Routes } from './src/routes';
 
 LogBox.ignoreLogs(['Non-serializable values were found in the navigation state.']);
+LogBox.ignoreAllLogs();
 
 export default function App() {
   const [fontsLoaded] = useFonts({
